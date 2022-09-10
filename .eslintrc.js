@@ -54,6 +54,7 @@ module.exports = {
     ],
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+    'react/no-unknown-property': ['error', { 'ignore': ['css'] }],
     // a11y
     'jsx-a11y/label-has-associated-control': ['error', { depth: 2 }],
   },

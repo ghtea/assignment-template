@@ -1,7 +1,13 @@
-const App = () => (
-  <div>
-      app
-  </div>
-)
+/** @jsxImportSource @emotion/react */
+import { useTheme } from '@emotion/react'
 
-export default App;
+export const App = () => {
+  const theme = useTheme()
+
+  return (
+    <div css={{
+      color: theme.colors.main
+    }}>
+      app
+    </div>
+  )}
