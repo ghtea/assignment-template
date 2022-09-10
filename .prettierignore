@@ -1,0 +1,8 @@
+# Ignore artifacts:
+build
+coverage
+
+*.js
+*.jsx
+*.ts
+*.tsx
